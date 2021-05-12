@@ -1,0 +1,27 @@
+{
+  "name": "questions",
+  "version": "1.0.0",
+  "description": "Backend for questions and answers component",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "pkg": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Systematic-Systems/Questions.git"
+  },
+  "author": "Dalton Xue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Systematic-Systems/Questions/issues"
+  },
+  "homepage": "https://github.com/Systematic-Systems/Questions#readme"
+}
